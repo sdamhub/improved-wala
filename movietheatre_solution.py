@@ -45,7 +45,11 @@
 #     "2020-02-22,soda",
 #  ] ) => 23
 
+<<<<<<< HEAD
+#The Solution
+=======
 
+>>>>>>> c3e33551b44379dbc487f4fab37f105a832e364f
 
 def movie_cost(purchase_enter):
     purchase_enter.sort()
@@ -85,4 +89,3 @@ purchase_enter = ["2021-11-15,popcorn",
 
 movie_cost(purchase_enter)
 
-#I added to the purchase entry
