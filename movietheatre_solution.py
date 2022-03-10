@@ -1,8 +1,7 @@
+# defining a function
+def movie_cost(purchase_enter):
+    purchase_enter.sort()
 
-def movie_cost(purchase_entry):
-    purchase_entry.sort()
-    purchase_enter = purchase_entry
-    #print (purchase_enter)
 
     cost = []
 
@@ -28,7 +27,7 @@ def movie_cost(purchase_entry):
     print("The total Amount is "+ str(total_cost))
             #print(prev_word, elem, next_word)
 
-purchase_entry = ["2021-11-15,popcorn",
+purchase_enter = ["2021-11-15,popcorn",
                   "2021-11-15,soda",
                   "2021-11-16,soda",
                   "2021-11-17,popcorn",
@@ -36,6 +35,6 @@ purchase_entry = ["2021-11-15,popcorn",
                   "2020-12-15,soda",
                   "2021-01-31,popcorn"]
 
-movie_cost(purchase_entry)
+movie_cost(purchase_enter)
 
 #I added to the purchase entry
